@@ -1,0 +1,82 @@
+body{
+    background-color: steelblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+.text {
+    display: inline-block;
+    margin: 0;
+    margin-top: 100px;
+    
+}
+h1 {
+    color: #78CEDB;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-shadow: 2px 2px;
+    text-align: center;
+    margin-top: 15px;
+    
+
+}
+a {
+    background-color: #78CEDB;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 70px #78CEDB;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    
+
+}
+input {
+    float: left;
+    background-color: #78CEDB;
+    margin-top: 130px;
+    border-color: #78CEDB;
+    border-radius: 10px;
+    width: 30%;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: 210px;
+}
+button {
+    background-color: #78CEDB;
+    float: left;
+    margin-top: 40px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-color: #78CEDB;
+    width: 10%;
+    height: 25px;
+}
+button > img {
+    width: 20px;
+}
+.img { 
+    height: 550px;
+    width: 0;
+    float: right;
+    margin-top: 160px;
+    margin-left: 20px;
+}
+hr {
+    background-color: #423419;
+    height: 20px;
+    width: 100%;
+    margin-top: 0;
+    
+}
